@@ -28,7 +28,7 @@ function setup(){
 
   if(frameCount%100===0){
     for(var i=0; i<maxDrops;i++){
-      drops.push(new Drop(random(0,400),random(0,400),8,8));
+      drops.push(new Drop(random(0,400),random(0,400),5,5));
      }
     }
 
