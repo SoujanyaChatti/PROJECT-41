@@ -4,12 +4,10 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
 
-var man_image;
-var ground;
-var ground_options;
+
 var maxDrops = 100000;
 var drops = [];
-var thunder1, thunder2, thunder3;
+var thunder, thunder2, thunder3;
 var umbrella;
 
 function preload(){
